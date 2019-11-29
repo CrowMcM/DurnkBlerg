@@ -1,5 +1,6 @@
 package com.example.durnkblerg;
 
+
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.app.Activity;
@@ -13,18 +14,29 @@ import android.os.Bundle;
 import android.provider.AlarmClock;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
+import java.util.ArrayList;
+import android.view.View;
 
 import java.util.List;
 
 public class BlockActivity extends AppCompatActivity {
 
+
+
+    AppAdapter installedAppAdapter;
+    List<AppList>installedApps;
+
+    ListView userInstalledApps;
+    List<String>lock=new ArrayList <> (  );
+
+
     Button enableBtn, lockBtn, AppsBtn;
 
 
     static final int Result_enable = 1;
-    DevicePolicyManager devicePolicyManager;
     ComponentName componentName;
 
 
@@ -34,63 +46,24 @@ public class BlockActivity extends AppCompatActivity {
         super.onCreate ( savedInstanceState );
         setContentView ( R.layout.activity_block );
 
+
+
       enableBtn=(Button) findViewById ( R.id.enableBtn );
       lockBtn=(Button) findViewById ( R.id.lockBtn );
       AppsBtn=(Button)findViewById ( R.id.AppsBtn );
 
-        devicePolicyManager = (DevicePolicyManager)getSystemService ( Context.DEVICE_POLICY_SERVICE );
+        userInstalledApps=(ListView)findViewById (R.id.AppList);
         componentName = new ComponentName ( BlockActivity.this, Controller.class );
 
+        installedApps=getInstalledApps();
+        installedAppAdapter=new AppAdapter ( BlockActivity.this.installedApps );
 
-
-
-      final boolean active = devicePolicyManager.isAdminActive ( componentName );
-      if(active){
-            enableBtn.setText ("disable");
-            lockBtn.setVisibility ( View.VISIBLE );
-      } else{
-
-          enableBtn.setText ("enable");
-          lockBtn.setVisibility ( View.VISIBLE );
-
-      }
-
-
-
-      enableBtn.setOnClickListener ( new View.OnClickListener () {
-          @Override
-          public void onClick(View v) {
-              boolean active = devicePolicyManager.isAdminActive ( componentName );
-              if(active){
-                    devicePolicyManager.removeActiveAdmin ( componentName );
-                        enableBtn.setText ("enable");
-                        lockBtn.setVisibility ( View.VISIBLE );
-
-              }else{
-
-                  Intent intent =new Intent ( DevicePolicyManager.ACTION_ADD_DEVICE_ADMIN );
-                  intent.putExtra ( DevicePolicyManager.EXTRA_DEVICE_ADMIN, componentName );
-                  intent.putExtra ( DevicePolicyManager.EXTRA_ADD_EXPLANATION,"You should enable the app." );
-                  startActivityForResult (intent, Result_enable  );
-                  intent = new Intent ( AlarmClock.ACTION_SET_ALARM );
-                  startActivity ( intent );
-
-              }
-              
-
-          }
-      } );
 
       lockBtn.setOnClickListener ( new View.OnClickListener () {
           @Override
           public void onClick(View v) {
 
-              while(active) {
-
-
                   Intent intent = new Intent ( AlarmClock.ACTION_SET_ALARM ); 
-                  devicePolicyManager.lockNow ();
-              }
 
 
           }
@@ -99,7 +72,17 @@ public class BlockActivity extends AppCompatActivity {
 
 
 
+
+
     }
+
+
+
+    private List<AppList> getInstalledApps() {
+        return installedApps;
+    }
+
+
 
     protected void onActivityResult (int requestCode, int resultCode, Intent data ) {
         switch (requestCode){
@@ -114,6 +97,7 @@ public class BlockActivity extends AppCompatActivity {
         }
         super.onActivityResult ( requestCode, requestCode,data );
     }
+
 
 
 

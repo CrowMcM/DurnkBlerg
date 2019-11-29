@@ -1,61 +1,71 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Game">
+    tools:context=".MainActivity">
+
 
     <Button
-        android:id="@+id/BlueBtn"
-        android:layout_width="185dp"
-        android:layout_height="185dp"
-        android:layout_marginTop="76dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginRight="8dp"
-        android:background="#03A9F4"
-        android:text="Blue"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:id="@+id/b_set"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="0dp"
+        android:layout_toStartOf="@+id/b_start"
+        android:layout_toLeftOf="@+id/b_start"
+        android:text="Set Average" />
 
     <Button
-        android:id="@+id/RedBtn"
-        android:layout_width="185dp"
-        android:layout_height="185dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginLeft="8dp"
-        android:background="@color/colorPrimary"
-        android:text="Red"
-        app:layout_constraintBottom_toTopOf="@+id/YellowBtn"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.303" />
+        android:id="@+id/b_drunk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginRight="39dp"
+        android:layout_marginBottom="0dp"
+        android:layout_toEndOf="@+id/b_start"
+        android:layout_toRightOf="@+id/b_start"
+        android:text="Drunk Mode" />
 
     <Button
-        android:id="@+id/YellowBtn"
-        android:layout_width="185dp"
-        android:layout_height="185dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginBottom="108dp"
-        android:background="#FFEB3B"
-        android:text="Yellow"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent" />
+        android:id="@+id/b_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="Test" />
 
     <Button
-        android:id="@+id/GreenBtn"
-        android:layout_width="185dp"
-        android:layout_height="185dp"
-        android:layout_marginTop="436dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginRight="8dp"
-        android:background="#10E919"
-        android:text="Green"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toEndOf="@+id/YellowBtn"
-        app:layout_constraintTop_toTopOf="parent" />
-</androidx.constraintlayout.widget.ConstraintLayout>
+        android:id="@+id/b_main"
+        android:background="@color/red"
+        android:textColor="#ffffff"
+        android:textSize="64dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text=""
+        android:layout_above="@id/b_start"/>
+
+
+    <TextView
+        android:id="@+id/tv_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:text=""
+        android:textSize="24dp"
+        android:elevation="1000dp"/>
+
+</RelativeLayout>

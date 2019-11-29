@@ -11,11 +11,11 @@
 9-->C:\Users\Eoin\Documents\school\NCI\Year 2\DurnkBlerg\app\src\main\AndroidManifest.xml
 10
 11    <uses-permission android:name="com.android.alarm.permission.SET_ALARM" />
-11-->C:\Users\Eoin\Documents\school\NCI\Year 2\DurnkBlerg\app\src\main\AndroidManifest.xml:5:5-77
+11-->C:\Users\Eoin\Documents\school\NCI\Year 2\DurnkBlerg\app\src\main\AndroidManifest.xml:5:5-78
 11-->C:\Users\Eoin\Documents\school\NCI\Year 2\DurnkBlerg\app\src\main\AndroidManifest.xml:5:22-75
 12
 13    <application
-13-->C:\Users\Eoin\Documents\school\NCI\Year 2\DurnkBlerg\app\src\main\AndroidManifest.xml:7:5-38:19
+13-->C:\Users\Eoin\Documents\school\NCI\Year 2\DurnkBlerg\app\src\main\AndroidManifest.xml:7:5-39:19
 14        android:allowBackup="true"
 14-->C:\Users\Eoin\Documents\school\NCI\Year 2\DurnkBlerg\app\src\main\AndroidManifest.xml:8:9-35
 15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -29,112 +29,116 @@
 19-->C:\Users\Eoin\Documents\school\NCI\Year 2\DurnkBlerg\app\src\main\AndroidManifest.xml:11:9-54
 20        android:supportsRtl="true"
 20-->C:\Users\Eoin\Documents\school\NCI\Year 2\DurnkBlerg\app\src\main\AndroidManifest.xml:12:9-35
-21        android:theme="@style/AppTheme" >
-21-->C:\Users\Eoin\Documents\school\NCI\Year 2\DurnkBlerg\app\src\main\AndroidManifest.xml:13:9-40
-22        <activity android:name="com.example.durnkblerg.LoginActivity" />
-22-->C:\Users\Eoin\Documents\school\NCI\Year 2\DurnkBlerg\app\src\main\AndroidManifest.xml:14:9-60
-22-->C:\Users\Eoin\Documents\school\NCI\Year 2\DurnkBlerg\app\src\main\AndroidManifest.xml:14:19-48
-23        <activity android:name="com.example.durnkblerg.BlockActivity" />
-23-->C:\Users\Eoin\Documents\school\NCI\Year 2\DurnkBlerg\app\src\main\AndroidManifest.xml:15:9-51
-23-->C:\Users\Eoin\Documents\school\NCI\Year 2\DurnkBlerg\app\src\main\AndroidManifest.xml:15:19-48
-24        <activity android:name="com.example.durnkblerg.Game" />
-24-->C:\Users\Eoin\Documents\school\NCI\Year 2\DurnkBlerg\app\src\main\AndroidManifest.xml:16:9-42
-24-->C:\Users\Eoin\Documents\school\NCI\Year 2\DurnkBlerg\app\src\main\AndroidManifest.xml:16:19-39
-25        <activity android:name="com.example.durnkblerg.MainActivity" >
-25-->C:\Users\Eoin\Documents\school\NCI\Year 2\DurnkBlerg\app\src\main\AndroidManifest.xml:17:9-23:20
-25-->C:\Users\Eoin\Documents\school\NCI\Year 2\DurnkBlerg\app\src\main\AndroidManifest.xml:17:19-47
-26            <intent-filter>
-26-->C:\Users\Eoin\Documents\school\NCI\Year 2\DurnkBlerg\app\src\main\AndroidManifest.xml:18:13-22:29
-27                <action android:name="android.intent.action.MAIN" />
-27-->C:\Users\Eoin\Documents\school\NCI\Year 2\DurnkBlerg\app\src\main\AndroidManifest.xml:19:17-69
-27-->C:\Users\Eoin\Documents\school\NCI\Year 2\DurnkBlerg\app\src\main\AndroidManifest.xml:19:25-66
-28
-29                <category android:name="android.intent.category.LAUNCHER" />
-29-->C:\Users\Eoin\Documents\school\NCI\Year 2\DurnkBlerg\app\src\main\AndroidManifest.xml:21:17-77
-29-->C:\Users\Eoin\Documents\school\NCI\Year 2\DurnkBlerg\app\src\main\AndroidManifest.xml:21:27-74
-30            </intent-filter>
-31        </activity>
-32
-33        <receiver
-33-->C:\Users\Eoin\Documents\school\NCI\Year 2\DurnkBlerg\app\src\main\AndroidManifest.xml:25:9-36:20
-34            android:name="com.example.durnkblerg.Controller"
-34-->C:\Users\Eoin\Documents\school\NCI\Year 2\DurnkBlerg\app\src\main\AndroidManifest.xml:25:19-45
-35            android:description="@string/app_description"
-35-->C:\Users\Eoin\Documents\school\NCI\Year 2\DurnkBlerg\app\src\main\AndroidManifest.xml:26:13-58
-36            android:label="@string/app_name"
-36-->C:\Users\Eoin\Documents\school\NCI\Year 2\DurnkBlerg\app\src\main\AndroidManifest.xml:27:13-45
-37            android:permission="android.permission.BIND_DEVICE_ADMIN" >
-37-->C:\Users\Eoin\Documents\school\NCI\Year 2\DurnkBlerg\app\src\main\AndroidManifest.xml:28:13-70
-38            <meta-data
-38-->C:\Users\Eoin\Documents\school\NCI\Year 2\DurnkBlerg\app\src\main\AndroidManifest.xml:29:13-31:55
-39                android:name="android.app.device_admin"
-39-->C:\Users\Eoin\Documents\school\NCI\Year 2\DurnkBlerg\app\src\main\AndroidManifest.xml:30:17-56
-40                android:resource="@xml/device_admin" />
-40-->C:\Users\Eoin\Documents\school\NCI\Year 2\DurnkBlerg\app\src\main\AndroidManifest.xml:31:17-53
-41
-42            <intent-filter>
-42-->C:\Users\Eoin\Documents\school\NCI\Year 2\DurnkBlerg\app\src\main\AndroidManifest.xml:32:17-34:33
-43                <action android:name="android.app.action.DEVICE_ADMIN_ENABLED" />
-43-->C:\Users\Eoin\Documents\school\NCI\Year 2\DurnkBlerg\app\src\main\AndroidManifest.xml:33:20-84
-43-->C:\Users\Eoin\Documents\school\NCI\Year 2\DurnkBlerg\app\src\main\AndroidManifest.xml:33:28-82
-44            </intent-filter>
-45        </receiver>
-46
-47        <activity
-47-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\Eoin\.gradle\caches\transforms-2\files-2.1\45525a4d91b3ad539e7019c71f6e53f2\jetified-firebase-auth-16.0.5\AndroidManifest.xml:24:9-31:50
-48            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
-48-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\Eoin\.gradle\caches\transforms-2\files-2.1\45525a4d91b3ad539e7019c71f6e53f2\jetified-firebase-auth-16.0.5\AndroidManifest.xml:25:13-85
-49            android:excludeFromRecents="true"
-49-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\Eoin\.gradle\caches\transforms-2\files-2.1\45525a4d91b3ad539e7019c71f6e53f2\jetified-firebase-auth-16.0.5\AndroidManifest.xml:26:13-46
-50            android:exported="true"
-50-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\Eoin\.gradle\caches\transforms-2\files-2.1\45525a4d91b3ad539e7019c71f6e53f2\jetified-firebase-auth-16.0.5\AndroidManifest.xml:27:13-36
-51            android:launchMode="singleTask"
-51-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\Eoin\.gradle\caches\transforms-2\files-2.1\45525a4d91b3ad539e7019c71f6e53f2\jetified-firebase-auth-16.0.5\AndroidManifest.xml:28:13-44
-52            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
-52-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\Eoin\.gradle\caches\transforms-2\files-2.1\45525a4d91b3ad539e7019c71f6e53f2\jetified-firebase-auth-16.0.5\AndroidManifest.xml:29:13-102
-53            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-53-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\Eoin\.gradle\caches\transforms-2\files-2.1\45525a4d91b3ad539e7019c71f6e53f2\jetified-firebase-auth-16.0.5\AndroidManifest.xml:30:13-72
-54
-55        <service
-55-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\Eoin\.gradle\caches\transforms-2\files-2.1\45525a4d91b3ad539e7019c71f6e53f2\jetified-firebase-auth-16.0.5\AndroidManifest.xml:33:9-39:19
-56            android:name="com.google.firebase.components.ComponentDiscoveryService"
-56-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\Eoin\.gradle\caches\transforms-2\files-2.1\45525a4d91b3ad539e7019c71f6e53f2\jetified-firebase-auth-16.0.5\AndroidManifest.xml:34:13-84
-57            android:exported="false" >
-57-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\Eoin\.gradle\caches\transforms-2\files-2.1\45525a4d91b3ad539e7019c71f6e53f2\jetified-firebase-auth-16.0.5\AndroidManifest.xml:35:13-37
-58            <meta-data
-58-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\Eoin\.gradle\caches\transforms-2\files-2.1\45525a4d91b3ad539e7019c71f6e53f2\jetified-firebase-auth-16.0.5\AndroidManifest.xml:36:13-38:85
-59                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
-59-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\Eoin\.gradle\caches\transforms-2\files-2.1\45525a4d91b3ad539e7019c71f6e53f2\jetified-firebase-auth-16.0.5\AndroidManifest.xml:37:17-109
-60                android:value="com.google.firebase.components.ComponentRegistrar" />
-60-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\Eoin\.gradle\caches\transforms-2\files-2.1\45525a4d91b3ad539e7019c71f6e53f2\jetified-firebase-auth-16.0.5\AndroidManifest.xml:38:17-82
-61        </service>
-62
-63        <activity
-63-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\Eoin\.gradle\caches\transforms-2\files-2.1\3f294954df7754e5b7b6b16c03b73214\jetified-play-services-base-16.0.1\AndroidManifest.xml:23:9-26:75
-64            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-64-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\Eoin\.gradle\caches\transforms-2\files-2.1\3f294954df7754e5b7b6b16c03b73214\jetified-play-services-base-16.0.1\AndroidManifest.xml:24:13-79
-65            android:exported="false"
-65-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\Eoin\.gradle\caches\transforms-2\files-2.1\3f294954df7754e5b7b6b16c03b73214\jetified-play-services-base-16.0.1\AndroidManifest.xml:25:13-37
-66            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-66-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\Eoin\.gradle\caches\transforms-2\files-2.1\3f294954df7754e5b7b6b16c03b73214\jetified-play-services-base-16.0.1\AndroidManifest.xml:26:13-72
-67
-68        <provider
-68-->[com.google.firebase:firebase-common:16.0.3] C:\Users\Eoin\.gradle\caches\transforms-2\files-2.1\af8dff3340158d4d477c824c01c12e21\jetified-firebase-common-16.0.3\AndroidManifest.xml:10:9-14:39
-69            android:name="com.google.firebase.provider.FirebaseInitProvider"
-69-->[com.google.firebase:firebase-common:16.0.3] C:\Users\Eoin\.gradle\caches\transforms-2\files-2.1\af8dff3340158d4d477c824c01c12e21\jetified-firebase-common-16.0.3\AndroidManifest.xml:11:13-77
-70            android:authorities="com.example.durnkblerg.firebaseinitprovider"
-70-->[com.google.firebase:firebase-common:16.0.3] C:\Users\Eoin\.gradle\caches\transforms-2\files-2.1\af8dff3340158d4d477c824c01c12e21\jetified-firebase-common-16.0.3\AndroidManifest.xml:12:13-72
-71            android:exported="false"
-71-->[com.google.firebase:firebase-common:16.0.3] C:\Users\Eoin\.gradle\caches\transforms-2\files-2.1\af8dff3340158d4d477c824c01c12e21\jetified-firebase-common-16.0.3\AndroidManifest.xml:13:13-37
-72            android:initOrder="100" />
-72-->[com.google.firebase:firebase-common:16.0.3] C:\Users\Eoin\.gradle\caches\transforms-2\files-2.1\af8dff3340158d4d477c824c01c12e21\jetified-firebase-common-16.0.3\AndroidManifest.xml:14:13-36
-73
-74        <meta-data
-74-->[com.google.android.gms:play-services-basement:16.1.0] C:\Users\Eoin\.gradle\caches\transforms-2\files-2.1\d02efb45c97916bab0cb2ae1dc35d76d\jetified-play-services-basement-16.1.0\AndroidManifest.xml:23:9-25:69
-75            android:name="com.google.android.gms.version"
-75-->[com.google.android.gms:play-services-basement:16.1.0] C:\Users\Eoin\.gradle\caches\transforms-2\files-2.1\d02efb45c97916bab0cb2ae1dc35d76d\jetified-play-services-basement-16.1.0\AndroidManifest.xml:24:13-58
-76            android:value="@integer/google_play_services_version" />
-76-->[com.google.android.gms:play-services-basement:16.1.0] C:\Users\Eoin\.gradle\caches\transforms-2\files-2.1\d02efb45c97916bab0cb2ae1dc35d76d\jetified-play-services-basement-16.1.0\AndroidManifest.xml:25:13-66
-77    </application>
-78
-79</manifest>
+21        android:testOnly="true"
+22        android:theme="@style/AppTheme" >
+22-->C:\Users\Eoin\Documents\school\NCI\Year 2\DurnkBlerg\app\src\main\AndroidManifest.xml:13:9-40
+23        <activity android:name="com.example.durnkblerg.AppList" />
+23-->C:\Users\Eoin\Documents\school\NCI\Year 2\DurnkBlerg\app\src\main\AndroidManifest.xml:14:9-54
+23-->C:\Users\Eoin\Documents\school\NCI\Year 2\DurnkBlerg\app\src\main\AndroidManifest.xml:14:19-42
+24        <activity android:name="com.example.durnkblerg.LoginActivity" />
+24-->C:\Users\Eoin\Documents\school\NCI\Year 2\DurnkBlerg\app\src\main\AndroidManifest.xml:15:9-51
+24-->C:\Users\Eoin\Documents\school\NCI\Year 2\DurnkBlerg\app\src\main\AndroidManifest.xml:15:19-48
+25        <activity android:name="com.example.durnkblerg.BlockActivity" />
+25-->C:\Users\Eoin\Documents\school\NCI\Year 2\DurnkBlerg\app\src\main\AndroidManifest.xml:16:9-51
+25-->C:\Users\Eoin\Documents\school\NCI\Year 2\DurnkBlerg\app\src\main\AndroidManifest.xml:16:19-48
+26        <activity android:name="com.example.durnkblerg.Game" />
+26-->C:\Users\Eoin\Documents\school\NCI\Year 2\DurnkBlerg\app\src\main\AndroidManifest.xml:17:9-42
+26-->C:\Users\Eoin\Documents\school\NCI\Year 2\DurnkBlerg\app\src\main\AndroidManifest.xml:17:19-39
+27        <activity android:name="com.example.durnkblerg.MainActivity" >
+27-->C:\Users\Eoin\Documents\school\NCI\Year 2\DurnkBlerg\app\src\main\AndroidManifest.xml:18:9-24:20
+27-->C:\Users\Eoin\Documents\school\NCI\Year 2\DurnkBlerg\app\src\main\AndroidManifest.xml:18:19-47
+28            <intent-filter>
+28-->C:\Users\Eoin\Documents\school\NCI\Year 2\DurnkBlerg\app\src\main\AndroidManifest.xml:19:13-23:29
+29                <action android:name="android.intent.action.MAIN" />
+29-->C:\Users\Eoin\Documents\school\NCI\Year 2\DurnkBlerg\app\src\main\AndroidManifest.xml:20:17-69
+29-->C:\Users\Eoin\Documents\school\NCI\Year 2\DurnkBlerg\app\src\main\AndroidManifest.xml:20:25-66
+30
+31                <category android:name="android.intent.category.LAUNCHER" />
+31-->C:\Users\Eoin\Documents\school\NCI\Year 2\DurnkBlerg\app\src\main\AndroidManifest.xml:22:17-77
+31-->C:\Users\Eoin\Documents\school\NCI\Year 2\DurnkBlerg\app\src\main\AndroidManifest.xml:22:27-74
+32            </intent-filter>
+33        </activity>
+34
+35        <receiver
+35-->C:\Users\Eoin\Documents\school\NCI\Year 2\DurnkBlerg\app\src\main\AndroidManifest.xml:26:9-38:20
+36            android:name="com.example.durnkblerg.Controller"
+36-->C:\Users\Eoin\Documents\school\NCI\Year 2\DurnkBlerg\app\src\main\AndroidManifest.xml:27:13-39
+37            android:description="@string/app_description"
+37-->C:\Users\Eoin\Documents\school\NCI\Year 2\DurnkBlerg\app\src\main\AndroidManifest.xml:28:13-58
+38            android:label="@string/app_name"
+38-->C:\Users\Eoin\Documents\school\NCI\Year 2\DurnkBlerg\app\src\main\AndroidManifest.xml:29:13-45
+39            android:permission="android.permission.BIND_DEVICE_ADMIN" >
+39-->C:\Users\Eoin\Documents\school\NCI\Year 2\DurnkBlerg\app\src\main\AndroidManifest.xml:30:13-70
+40            <meta-data
+40-->C:\Users\Eoin\Documents\school\NCI\Year 2\DurnkBlerg\app\src\main\AndroidManifest.xml:31:13-33:56
+41                android:name="android.app.device_admin"
+41-->C:\Users\Eoin\Documents\school\NCI\Year 2\DurnkBlerg\app\src\main\AndroidManifest.xml:32:17-56
+42                android:resource="@xml/device_admin" />
+42-->C:\Users\Eoin\Documents\school\NCI\Year 2\DurnkBlerg\app\src\main\AndroidManifest.xml:33:17-53
+43
+44            <intent-filter>
+44-->C:\Users\Eoin\Documents\school\NCI\Year 2\DurnkBlerg\app\src\main\AndroidManifest.xml:35:13-37:29
+45                <action android:name="android.app.action.DEVICE_ADMIN_ENABLED" />
+45-->C:\Users\Eoin\Documents\school\NCI\Year 2\DurnkBlerg\app\src\main\AndroidManifest.xml:36:17-82
+45-->C:\Users\Eoin\Documents\school\NCI\Year 2\DurnkBlerg\app\src\main\AndroidManifest.xml:36:25-79
+46            </intent-filter>
+47        </receiver>
+48
+49        <activity
+49-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\Eoin\.gradle\caches\transforms-2\files-2.1\45525a4d91b3ad539e7019c71f6e53f2\jetified-firebase-auth-16.0.5\AndroidManifest.xml:24:9-31:50
+50            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+50-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\Eoin\.gradle\caches\transforms-2\files-2.1\45525a4d91b3ad539e7019c71f6e53f2\jetified-firebase-auth-16.0.5\AndroidManifest.xml:25:13-85
+51            android:excludeFromRecents="true"
+51-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\Eoin\.gradle\caches\transforms-2\files-2.1\45525a4d91b3ad539e7019c71f6e53f2\jetified-firebase-auth-16.0.5\AndroidManifest.xml:26:13-46
+52            android:exported="true"
+52-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\Eoin\.gradle\caches\transforms-2\files-2.1\45525a4d91b3ad539e7019c71f6e53f2\jetified-firebase-auth-16.0.5\AndroidManifest.xml:27:13-36
+53            android:launchMode="singleTask"
+53-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\Eoin\.gradle\caches\transforms-2\files-2.1\45525a4d91b3ad539e7019c71f6e53f2\jetified-firebase-auth-16.0.5\AndroidManifest.xml:28:13-44
+54            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+54-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\Eoin\.gradle\caches\transforms-2\files-2.1\45525a4d91b3ad539e7019c71f6e53f2\jetified-firebase-auth-16.0.5\AndroidManifest.xml:29:13-102
+55            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+55-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\Eoin\.gradle\caches\transforms-2\files-2.1\45525a4d91b3ad539e7019c71f6e53f2\jetified-firebase-auth-16.0.5\AndroidManifest.xml:30:13-72
+56
+57        <service
+57-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\Eoin\.gradle\caches\transforms-2\files-2.1\45525a4d91b3ad539e7019c71f6e53f2\jetified-firebase-auth-16.0.5\AndroidManifest.xml:33:9-39:19
+58            android:name="com.google.firebase.components.ComponentDiscoveryService"
+58-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\Eoin\.gradle\caches\transforms-2\files-2.1\45525a4d91b3ad539e7019c71f6e53f2\jetified-firebase-auth-16.0.5\AndroidManifest.xml:34:13-84
+59            android:exported="false" >
+59-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\Eoin\.gradle\caches\transforms-2\files-2.1\45525a4d91b3ad539e7019c71f6e53f2\jetified-firebase-auth-16.0.5\AndroidManifest.xml:35:13-37
+60            <meta-data
+60-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\Eoin\.gradle\caches\transforms-2\files-2.1\45525a4d91b3ad539e7019c71f6e53f2\jetified-firebase-auth-16.0.5\AndroidManifest.xml:36:13-38:85
+61                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+61-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\Eoin\.gradle\caches\transforms-2\files-2.1\45525a4d91b3ad539e7019c71f6e53f2\jetified-firebase-auth-16.0.5\AndroidManifest.xml:37:17-109
+62                android:value="com.google.firebase.components.ComponentRegistrar" />
+62-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\Eoin\.gradle\caches\transforms-2\files-2.1\45525a4d91b3ad539e7019c71f6e53f2\jetified-firebase-auth-16.0.5\AndroidManifest.xml:38:17-82
+63        </service>
+64
+65        <activity
+65-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\Eoin\.gradle\caches\transforms-2\files-2.1\3f294954df7754e5b7b6b16c03b73214\jetified-play-services-base-16.0.1\AndroidManifest.xml:23:9-26:75
+66            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+66-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\Eoin\.gradle\caches\transforms-2\files-2.1\3f294954df7754e5b7b6b16c03b73214\jetified-play-services-base-16.0.1\AndroidManifest.xml:24:13-79
+67            android:exported="false"
+67-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\Eoin\.gradle\caches\transforms-2\files-2.1\3f294954df7754e5b7b6b16c03b73214\jetified-play-services-base-16.0.1\AndroidManifest.xml:25:13-37
+68            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+68-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\Eoin\.gradle\caches\transforms-2\files-2.1\3f294954df7754e5b7b6b16c03b73214\jetified-play-services-base-16.0.1\AndroidManifest.xml:26:13-72
+69
+70        <provider
+70-->[com.google.firebase:firebase-common:16.0.3] C:\Users\Eoin\.gradle\caches\transforms-2\files-2.1\af8dff3340158d4d477c824c01c12e21\jetified-firebase-common-16.0.3\AndroidManifest.xml:10:9-14:39
+71            android:name="com.google.firebase.provider.FirebaseInitProvider"
+71-->[com.google.firebase:firebase-common:16.0.3] C:\Users\Eoin\.gradle\caches\transforms-2\files-2.1\af8dff3340158d4d477c824c01c12e21\jetified-firebase-common-16.0.3\AndroidManifest.xml:11:13-77
+72            android:authorities="com.example.durnkblerg.firebaseinitprovider"
+72-->[com.google.firebase:firebase-common:16.0.3] C:\Users\Eoin\.gradle\caches\transforms-2\files-2.1\af8dff3340158d4d477c824c01c12e21\jetified-firebase-common-16.0.3\AndroidManifest.xml:12:13-72
+73            android:exported="false"
+73-->[com.google.firebase:firebase-common:16.0.3] C:\Users\Eoin\.gradle\caches\transforms-2\files-2.1\af8dff3340158d4d477c824c01c12e21\jetified-firebase-common-16.0.3\AndroidManifest.xml:13:13-37
+74            android:initOrder="100" />
+74-->[com.google.firebase:firebase-common:16.0.3] C:\Users\Eoin\.gradle\caches\transforms-2\files-2.1\af8dff3340158d4d477c824c01c12e21\jetified-firebase-common-16.0.3\AndroidManifest.xml:14:13-36
+75
+76        <meta-data
+76-->[com.google.android.gms:play-services-basement:16.1.0] C:\Users\Eoin\.gradle\caches\transforms-2\files-2.1\d02efb45c97916bab0cb2ae1dc35d76d\jetified-play-services-basement-16.1.0\AndroidManifest.xml:23:9-25:69
+77            android:name="com.google.android.gms.version"
+77-->[com.google.android.gms:play-services-basement:16.1.0] C:\Users\Eoin\.gradle\caches\transforms-2\files-2.1\d02efb45c97916bab0cb2ae1dc35d76d\jetified-play-services-basement-16.1.0\AndroidManifest.xml:24:13-58
+78            android:value="@integer/google_play_services_version" />
+78-->[com.google.android.gms:play-services-basement:16.1.0] C:\Users\Eoin\.gradle\caches\transforms-2\files-2.1\d02efb45c97916bab0cb2ae1dc35d76d\jetified-play-services-basement-16.1.0\AndroidManifest.xml:25:13-66
+79    </application>
+80
+81</manifest>

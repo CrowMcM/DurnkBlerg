@@ -1,12 +1,13 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Eoin\Documents\school\NCI\Year 2\DurnkBlerg\app\src\main\AndroidManifest.xml:2:1-40:12
-INJECTED from C:\Users\Eoin\Documents\school\NCI\Year 2\DurnkBlerg\app\src\main\AndroidManifest.xml:2:1-40:12
-INJECTED from C:\Users\Eoin\Documents\school\NCI\Year 2\DurnkBlerg\app\src\main\AndroidManifest.xml:2:1-40:12
-INJECTED from C:\Users\Eoin\Documents\school\NCI\Year 2\DurnkBlerg\app\src\main\AndroidManifest.xml:2:1-40:12
+ADDED from C:\Users\Eoin\Documents\school\NCI\Year 2\DurnkBlerg\app\src\main\AndroidManifest.xml:2:1-41:12
+INJECTED from C:\Users\Eoin\Documents\school\NCI\Year 2\DurnkBlerg\app\src\main\AndroidManifest.xml:2:1-41:12
+INJECTED from C:\Users\Eoin\Documents\school\NCI\Year 2\DurnkBlerg\app\src\main\AndroidManifest.xml:2:1-41:12
+INJECTED from C:\Users\Eoin\Documents\school\NCI\Year 2\DurnkBlerg\app\src\main\AndroidManifest.xml:2:1-41:12
 MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\Eoin\.gradle\caches\transforms-2\files-2.1\097096c04d107115229034cacf7197d4\appcompat-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Eoin\.gradle\caches\transforms-2\files-2.1\bd0f8ccafeae46bf023f7446d0c4b43a\constraintlayout-1.1.3\AndroidManifest.xml:2:1-11:12
 MERGED from [com.google.firebase:firebase-auth:16.0.5] C:\Users\Eoin\.gradle\caches\transforms-2\files-2.1\45525a4d91b3ad539e7019c71f6e53f2\jetified-firebase-auth-16.0.5\AndroidManifest.xml:17:1-42:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\Eoin\.gradle\caches\transforms-2\files-2.1\12aa235b26601ff811ddd83a45911d1b\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.gms:play-services-flags:16.0.1] C:\Users\Eoin\.gradle\caches\transforms-2\files-2.1\65bad743267c227d52b1c5a80b872353\play-services-flags-16.0.1\AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.firebase:firebase-auth-interop:16.0.1] C:\Users\Eoin\.gradle\caches\transforms-2\files-2.1\d707f7024bd365f3912cebd4a4ae2c32\jetified-firebase-auth-interop-16.0.1\AndroidManifest.xml:2:1-10:12
 MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Eoin\.gradle\caches\transforms-2\files-2.1\3f294954df7754e5b7b6b16c03b73214\jetified-play-services-base-16.0.1\AndroidManifest.xml:17:1-29:12
@@ -19,14 +20,14 @@ MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\Eoin\.gradle
 MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Eoin\.gradle\caches\transforms-2\files-2.1\7c3badd0ba796ba8bcd891f107bca410\legacy-support-core-ui-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Eoin\.gradle\caches\transforms-2\files-2.1\218afc73cbdb2a1e634f11e0dd9b084e\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Eoin\.gradle\caches\transforms-2\files-2.1\5c3218ab2fdb854a4a48b42cc63e26cf\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\Eoin\.gradle\caches\transforms-2\files-2.1\88d68474f29fb12f13d861176fb8e03b\coordinatorlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Eoin\.gradle\caches\transforms-2\files-2.1\684aeea4f450fca7198e8be9c8a8b118\slidingpanelayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Eoin\.gradle\caches\transforms-2\files-2.1\56b170ef4dc26513b2a5f32e40456c18\customview-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Eoin\.gradle\caches\transforms-2\files-2.1\6b5606835ac2d082f4bacfc0fe09be3b\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.loader:loader:1.0.0] C:\Users\Eoin\.gradle\caches\transforms-2\files-2.1\26969e2a5cf07c48cb7a6e0413cd4e28\loader-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.activity:activity:1.0.0] C:\Users\Eoin\.gradle\caches\transforms-2\files-2.1\c1eafd62314bb60c2a030404e9b1bbf8\activity-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Eoin\.gradle\caches\transforms-2\files-2.1\c762af48d29f7cca6e234b50707453c6\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Eoin\.gradle\caches\transforms-2\files-2.1\fabde3a47987936c1b4231ae1f88ae4c\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\Eoin\.gradle\caches\transforms-2\files-2.1\88d68474f29fb12f13d861176fb8e03b\coordinatorlayout-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Eoin\.gradle\caches\transforms-2\files-2.1\684aeea4f450fca7198e8be9c8a8b118\slidingpanelayout-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.customview:customview:1.0.0] C:\Users\Eoin\.gradle\caches\transforms-2\files-2.1\56b170ef4dc26513b2a5f32e40456c18\customview-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.media:media:1.0.0] C:\Users\Eoin\.gradle\caches\transforms-2\files-2.1\685420344a26c8928a9797aa61536522\media-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Eoin\.gradle\caches\transforms-2\files-2.1\5a98f4e2658e9b844b0fa47732fa3a38\swiperefreshlayout-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Eoin\.gradle\caches\transforms-2\files-2.1\bec2bec0a0de68fdd05e0521ba0127c5\asynclayoutinflater-1.0.0\AndroidManifest.xml:17:1-22:12
@@ -43,29 +44,29 @@ MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Eoin\.gradle\caches
 MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Eoin\.gradle\caches\transforms-2\files-2.1\46bedb93a5460374a499f7482244c946\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Eoin\.gradle\caches\transforms-2\files-2.1\7fb54d0b5175bc1941cec9eea80c9bcf\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] C:\Users\Eoin\.gradle\caches\transforms-2\files-2.1\873041cb0d465fe2ffd49d25410c5469\print-1.0.0\AndroidManifest.xml:17:1-22:12
-INJECTED from C:\Users\Eoin\Documents\school\NCI\Year 2\DurnkBlerg\app\src\main\AndroidManifest.xml:2:1-40:12
-INJECTED from C:\Users\Eoin\Documents\school\NCI\Year 2\DurnkBlerg\app\src\main\AndroidManifest.xml:2:1-40:12
-INJECTED from C:\Users\Eoin\Documents\school\NCI\Year 2\DurnkBlerg\app\src\main\AndroidManifest.xml:2:1-40:12
+INJECTED from C:\Users\Eoin\Documents\school\NCI\Year 2\DurnkBlerg\app\src\main\AndroidManifest.xml:2:1-41:12
+INJECTED from C:\Users\Eoin\Documents\school\NCI\Year 2\DurnkBlerg\app\src\main\AndroidManifest.xml:2:1-41:12
+INJECTED from C:\Users\Eoin\Documents\school\NCI\Year 2\DurnkBlerg\app\src\main\AndroidManifest.xml:2:1-41:12
 	package
 		ADDED from C:\Users\Eoin\Documents\school\NCI\Year 2\DurnkBlerg\app\src\main\AndroidManifest.xml:3:5-37
 		INJECTED from C:\Users\Eoin\Documents\school\NCI\Year 2\DurnkBlerg\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\Eoin\Documents\school\NCI\Year 2\DurnkBlerg\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\Eoin\Documents\school\NCI\Year 2\DurnkBlerg\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Eoin\Documents\school\NCI\Year 2\DurnkBlerg\app\src\main\AndroidManifest.xml:2:1-40:12
+		ADDED from C:\Users\Eoin\Documents\school\NCI\Year 2\DurnkBlerg\app\src\main\AndroidManifest.xml:2:1-41:12
 		INJECTED from C:\Users\Eoin\Documents\school\NCI\Year 2\DurnkBlerg\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Users\Eoin\Documents\school\NCI\Year 2\DurnkBlerg\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Eoin\Documents\school\NCI\Year 2\DurnkBlerg\app\src\main\AndroidManifest.xml:2:1-40:12
+		ADDED from C:\Users\Eoin\Documents\school\NCI\Year 2\DurnkBlerg\app\src\main\AndroidManifest.xml:2:1-41:12
 		INJECTED from C:\Users\Eoin\Documents\school\NCI\Year 2\DurnkBlerg\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\Eoin\Documents\school\NCI\Year 2\DurnkBlerg\app\src\main\AndroidManifest.xml:2:11-69
 uses-permission#com.android.alarm.permission.SET_ALARM
-ADDED from C:\Users\Eoin\Documents\school\NCI\Year 2\DurnkBlerg\app\src\main\AndroidManifest.xml:5:5-77
+ADDED from C:\Users\Eoin\Documents\school\NCI\Year 2\DurnkBlerg\app\src\main\AndroidManifest.xml:5:5-78
 	android:name
 		ADDED from C:\Users\Eoin\Documents\school\NCI\Year 2\DurnkBlerg\app\src\main\AndroidManifest.xml:5:22-75
 application
-ADDED from C:\Users\Eoin\Documents\school\NCI\Year 2\DurnkBlerg\app\src\main\AndroidManifest.xml:7:5-38:19
+ADDED from C:\Users\Eoin\Documents\school\NCI\Year 2\DurnkBlerg\app\src\main\AndroidManifest.xml:7:5-39:19
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Eoin\.gradle\caches\transforms-2\files-2.1\bd0f8ccafeae46bf023f7446d0c4b43a\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Eoin\.gradle\caches\transforms-2\files-2.1\bd0f8ccafeae46bf023f7446d0c4b43a\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
 MERGED from [com.google.firebase:firebase-auth:16.0.5] C:\Users\Eoin\.gradle\caches\transforms-2\files-2.1\45525a4d91b3ad539e7019c71f6e53f2\jetified-firebase-auth-16.0.5\AndroidManifest.xml:23:5-40:19
@@ -98,54 +99,58 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Eo
 		ADDED from C:\Users\Eoin\Documents\school\NCI\Year 2\DurnkBlerg\app\src\main\AndroidManifest.xml:8:9-35
 	android:theme
 		ADDED from C:\Users\Eoin\Documents\school\NCI\Year 2\DurnkBlerg\app\src\main\AndroidManifest.xml:13:9-40
-activity#com.example.durnkblerg.LoginActivity
-ADDED from C:\Users\Eoin\Documents\school\NCI\Year 2\DurnkBlerg\app\src\main\AndroidManifest.xml:14:9-60
+activity#com.example.durnkblerg.AppList
+ADDED from C:\Users\Eoin\Documents\school\NCI\Year 2\DurnkBlerg\app\src\main\AndroidManifest.xml:14:9-54
 	android:name
-		ADDED from C:\Users\Eoin\Documents\school\NCI\Year 2\DurnkBlerg\app\src\main\AndroidManifest.xml:14:19-48
-activity#com.example.durnkblerg.BlockActivity
+		ADDED from C:\Users\Eoin\Documents\school\NCI\Year 2\DurnkBlerg\app\src\main\AndroidManifest.xml:14:19-42
+activity#com.example.durnkblerg.LoginActivity
 ADDED from C:\Users\Eoin\Documents\school\NCI\Year 2\DurnkBlerg\app\src\main\AndroidManifest.xml:15:9-51
 	android:name
 		ADDED from C:\Users\Eoin\Documents\school\NCI\Year 2\DurnkBlerg\app\src\main\AndroidManifest.xml:15:19-48
+activity#com.example.durnkblerg.BlockActivity
+ADDED from C:\Users\Eoin\Documents\school\NCI\Year 2\DurnkBlerg\app\src\main\AndroidManifest.xml:16:9-51
+	android:name
+		ADDED from C:\Users\Eoin\Documents\school\NCI\Year 2\DurnkBlerg\app\src\main\AndroidManifest.xml:16:19-48
 activity#com.example.durnkblerg.Game
-ADDED from C:\Users\Eoin\Documents\school\NCI\Year 2\DurnkBlerg\app\src\main\AndroidManifest.xml:16:9-42
+ADDED from C:\Users\Eoin\Documents\school\NCI\Year 2\DurnkBlerg\app\src\main\AndroidManifest.xml:17:9-42
 	android:name
-		ADDED from C:\Users\Eoin\Documents\school\NCI\Year 2\DurnkBlerg\app\src\main\AndroidManifest.xml:16:19-39
+		ADDED from C:\Users\Eoin\Documents\school\NCI\Year 2\DurnkBlerg\app\src\main\AndroidManifest.xml:17:19-39
 activity#com.example.durnkblerg.MainActivity
-ADDED from C:\Users\Eoin\Documents\school\NCI\Year 2\DurnkBlerg\app\src\main\AndroidManifest.xml:17:9-23:20
+ADDED from C:\Users\Eoin\Documents\school\NCI\Year 2\DurnkBlerg\app\src\main\AndroidManifest.xml:18:9-24:20
 	android:name
-		ADDED from C:\Users\Eoin\Documents\school\NCI\Year 2\DurnkBlerg\app\src\main\AndroidManifest.xml:17:19-47
+		ADDED from C:\Users\Eoin\Documents\school\NCI\Year 2\DurnkBlerg\app\src\main\AndroidManifest.xml:18:19-47
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\Eoin\Documents\school\NCI\Year 2\DurnkBlerg\app\src\main\AndroidManifest.xml:18:13-22:29
+ADDED from C:\Users\Eoin\Documents\school\NCI\Year 2\DurnkBlerg\app\src\main\AndroidManifest.xml:19:13-23:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\Eoin\Documents\school\NCI\Year 2\DurnkBlerg\app\src\main\AndroidManifest.xml:19:17-69
+ADDED from C:\Users\Eoin\Documents\school\NCI\Year 2\DurnkBlerg\app\src\main\AndroidManifest.xml:20:17-69
 	android:name
-		ADDED from C:\Users\Eoin\Documents\school\NCI\Year 2\DurnkBlerg\app\src\main\AndroidManifest.xml:19:25-66
+		ADDED from C:\Users\Eoin\Documents\school\NCI\Year 2\DurnkBlerg\app\src\main\AndroidManifest.xml:20:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Eoin\Documents\school\NCI\Year 2\DurnkBlerg\app\src\main\AndroidManifest.xml:21:17-77
+ADDED from C:\Users\Eoin\Documents\school\NCI\Year 2\DurnkBlerg\app\src\main\AndroidManifest.xml:22:17-77
 	android:name
-		ADDED from C:\Users\Eoin\Documents\school\NCI\Year 2\DurnkBlerg\app\src\main\AndroidManifest.xml:21:27-74
+		ADDED from C:\Users\Eoin\Documents\school\NCI\Year 2\DurnkBlerg\app\src\main\AndroidManifest.xml:22:27-74
 receiver#com.example.durnkblerg.Controller
-ADDED from C:\Users\Eoin\Documents\school\NCI\Year 2\DurnkBlerg\app\src\main\AndroidManifest.xml:25:9-36:20
+ADDED from C:\Users\Eoin\Documents\school\NCI\Year 2\DurnkBlerg\app\src\main\AndroidManifest.xml:26:9-38:20
 	android:label
-		ADDED from C:\Users\Eoin\Documents\school\NCI\Year 2\DurnkBlerg\app\src\main\AndroidManifest.xml:27:13-45
+		ADDED from C:\Users\Eoin\Documents\school\NCI\Year 2\DurnkBlerg\app\src\main\AndroidManifest.xml:29:13-45
 	android:permission
-		ADDED from C:\Users\Eoin\Documents\school\NCI\Year 2\DurnkBlerg\app\src\main\AndroidManifest.xml:28:13-70
+		ADDED from C:\Users\Eoin\Documents\school\NCI\Year 2\DurnkBlerg\app\src\main\AndroidManifest.xml:30:13-70
 	android:description
-		ADDED from C:\Users\Eoin\Documents\school\NCI\Year 2\DurnkBlerg\app\src\main\AndroidManifest.xml:26:13-58
+		ADDED from C:\Users\Eoin\Documents\school\NCI\Year 2\DurnkBlerg\app\src\main\AndroidManifest.xml:28:13-58
 	android:name
-		ADDED from C:\Users\Eoin\Documents\school\NCI\Year 2\DurnkBlerg\app\src\main\AndroidManifest.xml:25:19-45
+		ADDED from C:\Users\Eoin\Documents\school\NCI\Year 2\DurnkBlerg\app\src\main\AndroidManifest.xml:27:13-39
 meta-data#android.app.device_admin
-ADDED from C:\Users\Eoin\Documents\school\NCI\Year 2\DurnkBlerg\app\src\main\AndroidManifest.xml:29:13-31:55
+ADDED from C:\Users\Eoin\Documents\school\NCI\Year 2\DurnkBlerg\app\src\main\AndroidManifest.xml:31:13-33:56
 	android:resource
-		ADDED from C:\Users\Eoin\Documents\school\NCI\Year 2\DurnkBlerg\app\src\main\AndroidManifest.xml:31:17-53
+		ADDED from C:\Users\Eoin\Documents\school\NCI\Year 2\DurnkBlerg\app\src\main\AndroidManifest.xml:33:17-53
 	android:name
-		ADDED from C:\Users\Eoin\Documents\school\NCI\Year 2\DurnkBlerg\app\src\main\AndroidManifest.xml:30:17-56
+		ADDED from C:\Users\Eoin\Documents\school\NCI\Year 2\DurnkBlerg\app\src\main\AndroidManifest.xml:32:17-56
 intent-filter#action:name:android.app.action.DEVICE_ADMIN_ENABLED
-ADDED from C:\Users\Eoin\Documents\school\NCI\Year 2\DurnkBlerg\app\src\main\AndroidManifest.xml:32:17-34:33
+ADDED from C:\Users\Eoin\Documents\school\NCI\Year 2\DurnkBlerg\app\src\main\AndroidManifest.xml:35:13-37:29
 action#android.app.action.DEVICE_ADMIN_ENABLED
-ADDED from C:\Users\Eoin\Documents\school\NCI\Year 2\DurnkBlerg\app\src\main\AndroidManifest.xml:33:20-84
+ADDED from C:\Users\Eoin\Documents\school\NCI\Year 2\DurnkBlerg\app\src\main\AndroidManifest.xml:36:17-82
 	android:name
-		ADDED from C:\Users\Eoin\Documents\school\NCI\Year 2\DurnkBlerg\app\src\main\AndroidManifest.xml:33:28-82
+		ADDED from C:\Users\Eoin\Documents\school\NCI\Year 2\DurnkBlerg\app\src\main\AndroidManifest.xml:36:25-79
 uses-sdk
 INJECTED from C:\Users\Eoin\Documents\school\NCI\Year 2\DurnkBlerg\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\Eoin\Documents\school\NCI\Year 2\DurnkBlerg\app\src\main\AndroidManifest.xml
@@ -156,6 +161,8 @@ MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Eoin\.gr
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Eoin\.gradle\caches\transforms-2\files-2.1\bd0f8ccafeae46bf023f7446d0c4b43a\constraintlayout-1.1.3\AndroidManifest.xml:5:5-7:41
 MERGED from [com.google.firebase:firebase-auth:16.0.5] C:\Users\Eoin\.gradle\caches\transforms-2\files-2.1\45525a4d91b3ad539e7019c71f6e53f2\jetified-firebase-auth-16.0.5\AndroidManifest.xml:21:5-44
 MERGED from [com.google.firebase:firebase-auth:16.0.5] C:\Users\Eoin\.gradle\caches\transforms-2\files-2.1\45525a4d91b3ad539e7019c71f6e53f2\jetified-firebase-auth-16.0.5\AndroidManifest.xml:21:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\Eoin\.gradle\caches\transforms-2\files-2.1\12aa235b26601ff811ddd83a45911d1b\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\Eoin\.gradle\caches\transforms-2\files-2.1\12aa235b26601ff811ddd83a45911d1b\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.android.gms:play-services-flags:16.0.1] C:\Users\Eoin\.gradle\caches\transforms-2\files-2.1\65bad743267c227d52b1c5a80b872353\play-services-flags-16.0.1\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-flags:16.0.1] C:\Users\Eoin\.gradle\caches\transforms-2\files-2.1\65bad743267c227d52b1c5a80b872353\play-services-flags-16.0.1\AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-auth-interop:16.0.1] C:\Users\Eoin\.gradle\caches\transforms-2\files-2.1\d707f7024bd365f3912cebd4a4ae2c32\jetified-firebase-auth-interop-16.0.1\AndroidManifest.xml:5:5-44
@@ -180,6 +187,12 @@ MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Eoin\.gradle\cac
 MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Eoin\.gradle\caches\transforms-2\files-2.1\218afc73cbdb2a1e634f11e0dd9b084e\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Eoin\.gradle\caches\transforms-2\files-2.1\5c3218ab2fdb854a4a48b42cc63e26cf\viewpager-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Eoin\.gradle\caches\transforms-2\files-2.1\5c3218ab2fdb854a4a48b42cc63e26cf\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\Eoin\.gradle\caches\transforms-2\files-2.1\88d68474f29fb12f13d861176fb8e03b\coordinatorlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\Eoin\.gradle\caches\transforms-2\files-2.1\88d68474f29fb12f13d861176fb8e03b\coordinatorlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Eoin\.gradle\caches\transforms-2\files-2.1\684aeea4f450fca7198e8be9c8a8b118\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Eoin\.gradle\caches\transforms-2\files-2.1\684aeea4f450fca7198e8be9c8a8b118\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Eoin\.gradle\caches\transforms-2\files-2.1\56b170ef4dc26513b2a5f32e40456c18\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Eoin\.gradle\caches\transforms-2\files-2.1\56b170ef4dc26513b2a5f32e40456c18\customview-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Eoin\.gradle\caches\transforms-2\files-2.1\6b5606835ac2d082f4bacfc0fe09be3b\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Eoin\.gradle\caches\transforms-2\files-2.1\6b5606835ac2d082f4bacfc0fe09be3b\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.loader:loader:1.0.0] C:\Users\Eoin\.gradle\caches\transforms-2\files-2.1\26969e2a5cf07c48cb7a6e0413cd4e28\loader-1.0.0\AndroidManifest.xml:20:5-44
@@ -190,12 +203,6 @@ MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Eoi
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Eoin\.gradle\caches\transforms-2\files-2.1\c762af48d29f7cca6e234b50707453c6\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Eoin\.gradle\caches\transforms-2\files-2.1\fabde3a47987936c1b4231ae1f88ae4c\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Eoin\.gradle\caches\transforms-2\files-2.1\fabde3a47987936c1b4231ae1f88ae4c\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\Eoin\.gradle\caches\transforms-2\files-2.1\88d68474f29fb12f13d861176fb8e03b\coordinatorlayout-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\Eoin\.gradle\caches\transforms-2\files-2.1\88d68474f29fb12f13d861176fb8e03b\coordinatorlayout-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Eoin\.gradle\caches\transforms-2\files-2.1\684aeea4f450fca7198e8be9c8a8b118\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Eoin\.gradle\caches\transforms-2\files-2.1\684aeea4f450fca7198e8be9c8a8b118\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.customview:customview:1.0.0] C:\Users\Eoin\.gradle\caches\transforms-2\files-2.1\56b170ef4dc26513b2a5f32e40456c18\customview-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.customview:customview:1.0.0] C:\Users\Eoin\.gradle\caches\transforms-2\files-2.1\56b170ef4dc26513b2a5f32e40456c18\customview-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.media:media:1.0.0] C:\Users\Eoin\.gradle\caches\transforms-2\files-2.1\685420344a26c8928a9797aa61536522\media-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.media:media:1.0.0] C:\Users\Eoin\.gradle\caches\transforms-2\files-2.1\685420344a26c8928a9797aa61536522\media-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Eoin\.gradle\caches\transforms-2\files-2.1\5a98f4e2658e9b844b0fa47732fa3a38\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
