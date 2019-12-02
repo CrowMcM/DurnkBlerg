@@ -5,7 +5,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:background="@color/red">
 
 
     <Button
@@ -16,8 +17,8 @@
         android:layout_marginEnd="30dp"
         android:layout_marginRight="30dp"
         android:layout_marginBottom="0dp"
-        android:layout_toStartOf="@+id/b_start"
-        android:layout_toLeftOf="@+id/b_start"
+        android:layout_toStartOf="@+id/b_test"
+        android:layout_toLeftOf="@+id/b_test"
         android:text="Set Average" />
 
     <Button
@@ -32,30 +33,102 @@
         android:layout_marginEnd="30dp"
         android:layout_marginRight="39dp"
         android:layout_marginBottom="0dp"
-        android:layout_toEndOf="@+id/b_start"
-        android:layout_toRightOf="@+id/b_start"
+        android:layout_toEndOf="@+id/b_test"
+        android:layout_toRightOf="@+id/b_test"
         android:text="Drunk Mode" />
 
     <Button
-        android:id="@+id/b_start"
+        android:id="@+id/b_test"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:text="Test" />
 
+
     <Button
         android:id="@+id/b_main"
-        android:background="@color/red"
-        android:textColor="#ffffff"
-        android:textSize="64dp"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="169dp"
+        android:layout_height="166dp"
+        android:layout_above="@id/b_test"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="115dp"
+        android:layout_marginEnd="215dp"
+        android:layout_marginRight="215dp"
+        android:layout_marginBottom="270dp"
+        android:background="@color/yellow"
         android:text=""
-        android:layout_above="@id/b_start"/>
+        android:textColor="@color/black"
+        android:textSize="20dp" />
 
+    <Button
+        android:id="@+id/b_main2"
+        android:layout_width="169dp"
+        android:layout_height="166dp"
+        android:layout_above="@id/b_test"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="215dp"
+        android:layout_marginLeft="223dp"
+        android:layout_marginTop="115dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="270dp"
+        android:background="@color/pink"
+        android:text=""
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/b_main3"
+        android:layout_width="169dp"
+        android:layout_height="166dp"
+        android:layout_above="@id/b_test"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="340dp"
+        android:layout_marginEnd="215dp"
+        android:layout_marginRight="215dp"
+        android:layout_marginBottom="50dp"
+        android:background="@color/green"
+        android:text=""
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/b_main4"
+        android:layout_width="169dp"
+        android:layout_height="166dp"
+        android:layout_above="@id/b_test"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="215dp"
+        android:layout_marginLeft="215dp"
+        android:layout_marginTop="340dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="50dp"
+        android:background="@color/orange"
+        android:text=""
+        android:textColor="@color/black"
+        android:textSize="20dp" />
 
     <TextView
         android:id="@+id/tv_info"
@@ -66,6 +139,21 @@
         android:gravity="center"
         android:text=""
         android:textSize="24dp"
+        android:textColor="@color/black"
         android:elevation="1000dp"/>
+
+    <TextView
+        android:id="@+id/tv_info2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_info"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="40dp"
+        android:elevation="1000dp"
+        android:gravity="center"
+        android:text=""
+        android:textColor="@color/black"
+        android:textSize="30dp" />
+
 
 </RelativeLayout>
